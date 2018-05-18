@@ -1,6 +1,6 @@
     body {
         font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-        background: #000;
+        background: #171010;
         margin: 0;
         padding: 0;
         color: black;
@@ -73,7 +73,7 @@
 
     .header {
         /* the header... */
-        background: #111111;
+        background: #171010;
         color: #fcd85c;
     }
 
@@ -138,14 +138,19 @@
         display: block;
         /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
         text-decoration: none;
-        background: silver;
-        color: #000;
+        /* background: silver;
+        color: #000; */
     }
 
     ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
         /* this changes the background and text color for both mouse and keyboard navigators in the nav class area */
-        background: gray;
+        background: #fcd85c;
         color: #FFF;
+    }
+
+    .current {
+        display: block;
+        background: #fcd85c;
     }
 
     /* ~~The footer ~~ */
